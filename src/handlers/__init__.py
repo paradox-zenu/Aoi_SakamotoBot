@@ -8,6 +8,7 @@ from .gban import register_gban_handlers
 from .notes import register_notes_handlers
 from .welcome import register_welcome_handlers
 from .errors import register_error_handlers
+from .uno import register_uno_handlers
 
 def register_all_handlers(client, database, config):
     """Register all handlers for the bot.
@@ -34,6 +35,9 @@ def register_all_handlers(client, database, config):
     
     # Register welcome message handlers
     register_welcome_handlers(client, database, config)
+
+    # Register Uno game handlers
+    register_uno_handlers(client, database, config
     
     # Register error handlers last
     register_error_handlers(client, database, config)
