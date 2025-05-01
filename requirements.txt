@@ -1,0 +1,8 @@
+python-telegram-bot==13.13
+pymongo==4.3.3
+dnspython==2.3.0
+python-dotenv==1.0.0
+requests==2.28.2
+Pillow==9.4.0
+pytz==2023.3
+loguru==0.7.0
