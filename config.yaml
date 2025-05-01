@@ -1,0 +1,18 @@
+# Bot Settings
+bot_username: ""
+command_prefix: "!"
+
+# Feature Toggles
+enable_welcome: true
+enable_antiflood: true
+enable_notes: true
+enable_filters: true
+enable_warnings: true
+enable_gbans: true
+enable_blacklist: true
+enable_locks: true
+
+# Limits
+flood_limit: 5
+flood_time_limit: 30
+warn_limit: 3
