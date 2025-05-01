@@ -1,6 +1,6 @@
 # Bot Settings
-bot_username: ""
-command_prefix: "!"
+bot_username: "Aoi_SakamotoBot"
+command_prefix: "!,/,."
 
 # Feature Toggles
 enable_welcome: true
@@ -11,7 +11,7 @@ enable_warnings: true
 enable_gbans: true
 enable_blacklist: true
 enable_locks: true
-
+enable_uno : true
 # Limits
 flood_limit: 5
 flood_time_limit: 30
