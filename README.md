@@ -1,7 +1,4 @@
 # Telegram Management Bot
-
-A comprehensive Telegram bot that combines features from @Lena_MilizeBot and @MissRose_Bot with added global ban/unban functionality. Built with Python using the Telethon library and MongoDB for data storage.
-
 ## Features
 
 - User management (ban, kick, mute, etc.)
@@ -19,81 +16,6 @@ A comprehensive Telegram bot that combines features from @Lena_MilizeBot and @Mi
 - Telegram API credentials (API ID and API Hash)
 - Bot token from BotFather
 
-## Setup
-
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/yourusername/telegram-management-bot.git
-cd telegram-management-bot
-```
-
-### 2. Install dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-### 3. Configure the bot
-
-Create a `.env` file in the project root directory:
-
-```
-# Bot API Credentials
-API_ID=123456
-API_HASH=abcdef1234567890abcdef1234567890
-BOT_TOKEN=1234567890:ABCDEFGHIJKLMNOPQRSTUVWXYZ
-
-# Database Connection
-MONGODB_URI=mongodb://localhost:27017/telegram_bot
-
-# Bot Owner and Privileged Users
-OWNER_ID=1234567890
-SUDO_USERS=1234567890,9876543210
-SUPPORT_USERS=
-WHITELIST_USERS=
-
-# Bot Settings
-COMMAND_PREFIX=!
-BOT_USERNAME=YourBotUsername
-```
-
-### 4. Run the bot
-
-```bash
-python bot.py
-```
-
-## Deployment to Heroku
-
-### 1. Create Heroku app
-
-```bash
-heroku create your-telegram-bot
-```
-
-### 2. Add MongoDB add-on
-
-```bash
-heroku addons:create mongolab
-```
-
-### 3. Set environment variables
-
-```bash
-heroku config:set API_ID=123456
-heroku config:set API_HASH=abcdef1234567890abcdef1234567890
-heroku config:set BOT_TOKEN=1234567890:ABCDEFGHIJKLMNOPQRSTUVWXYZ
-heroku config:set OWNER_ID=1234567890
-heroku config:set SUDO_USERS=1234567890,9876543210
-heroku config:set BOT_USERNAME=YourBotUsername
-```
-
-### 4. Deploy to Heroku
-
-```bash
-git push heroku main
-```
 
 ## Command Reference
 
@@ -179,8 +101,3 @@ This project is licensed under the MIT License.
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
-
-## Acknowledgements
-
-- [Telethon](https://github.com/LonamiWebs/Telethon)
-- Inspired by [@Lena_MilizeBot](https://t.me/Lena_MilizeBot) and [@MissRose_Bot](https://t.me/MissRose_Bot)
