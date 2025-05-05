@@ -37,7 +37,7 @@ def register_all_handlers(client, database, config):
     register_welcome_handlers(client, database, config)
 
     # Register Uno game handlers
-    register_uno_handlers(client, database, config
+    register_uno_handlers(client, database, config) 
     
     # Register error handlers last
     register_error_handlers(client, database, config)
